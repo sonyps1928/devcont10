@@ -1,2 +1,20 @@
-# Ignore environment variable files
-.env
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry files
+poetry.lock
+# (Optional) exclude if generated automatically
+
+# OS files
+.DS_Store
+Thumbs.db
